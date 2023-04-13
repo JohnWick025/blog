@@ -1,0 +1,45 @@
+.blog-git {
+  background: gray !important;
+  color:white !important;
+}
+
+.card {
+	width:95% !important;
+	margin: 0 auto;
+	padding: 2vw 2vw 2vw 2vw;
+	background: #fff;
+	display: grid;
+	box-shadow: 0 0 4px #bbb, 2px 2px 4px #ccc, 8px 8px 8px #ddd, 0 0 12px #ddd;
+}
+
+.container {
+  width:100%;
+}
+
+.row{
+	margin: 0 auto;
+	
+}
+.git-blog-1 {
+  display: inline-flex;
+  justify-content: space-between;
+  width:100%;
+  padding: 25px;
+}
+
+.card1{
+	width:49%;
+	background: #fff;
+	box-shadow: 0 0 4px #bbb, 2px 2px 4px #ccc, 8px 8px 8px #ddd, 0 0 12px #ddd;
+}
+.card2{
+	width:49%;
+	background: #fff;
+	
+}
+
+.git-blog-1 img{
+  width:100%;
+  padding:5px;
+  height: -webkit-fill-available;
+}
