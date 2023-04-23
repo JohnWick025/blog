@@ -1,101 +1,77 @@
-.site-header {
-	display:flex;
-	justify-content: space-between;
-	background:gray;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+body{
+	margin:0;
+}
+.header_tag nav {
+		justify-content: space-between;
+}
+.head_wic{
+	max-width: 100%;
+}
+.wic_ul{
+	display:flex ;
+	list-style-type:none;
+
+}
+.wic_ul li{
+	margin:auto;
+	padding:0px 15px;
+
 }
 
-.site-navigation ul, li {
-	display: inline-block;
+.wic_ul a{
+		text-decoration:none ;
+		color: white;
 }
-.site-navigation li {
-	padding-right:40px;
+.wic, .head_tag_1, .head_tag_2 {
+	margin:inherit;
+	display: contents;
 }
-.site-navigation ul {
-	margin-top:30px;
-	font-style:italic;
-}
-body {
-	background:#c4c4c4;
-  margin:0;
-}
-
-.head_name {
-	font-style:italic;
+.wic-nav{
+	margin:inherit;
+	list-style-type:none;
 	
 }
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
-.blog-conatiner{
-	display:flex;
+.wic-nav li{
+	margin:auto;
+	padding:0px 15px;
 }
 
-.container{
-  display: flex;
-  justify-content: left;
-  margin:30px;
+.wic-nav a{
+	color:white;
+	text-decoration:none;
 }
 
-.square:hover {
-    -webkit-transform: translate(20px, -10px);
-    -ms-transform: translate(10px, -10px);
-    transform: translate(10px, -10px);
-    -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
-     }
-
-
-.square{
-  width: 460px;
-	height: 430px;
-	background: white;
-  border-radius: 4px;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease; 
+.header_tag{
+	background:black;
+	color:White;
 }
 
-.mask{
-  clip: rect(0px, 460px, 220px, 0px);
-  border-radius: 4px;
-  position: absolute;
+.card-image img{
+	width:-webkit-fill-available !important;
+}
+.item-card{
+  transition:0.5s;
+  cursor:pointer;
+}
+.item-card-title{  
+ 
+  cursor:pointer;
 }
 
-img{
-  width: 460px;
-  }
 
-.h1{
-  margin: auto;
-  text-align: left;
-  margin-top: 240px;
-  padding-left: 30px;
-  
-  font-family: 'Merriweather', serif;
-  font-size: 24px;
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 10px 10px 15px ;
 }
-p{
- text-align: justify; 
- padding-left: 30px;
- padding-right: 30px;
- font-family: 'Open Sans', sans-serif;
- font-size: 12px;
- color: #C8C8C8;
- line-height: 18px;
+.card-text{
+  height:80px;  
 }
 
-.button {
-    background-color: #3EDD84;
-    color: white;
-    width: 90px;
-    padding: 10px 18px;
-    border-radius: 3px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    margin-top: 20px;
-    margin-left: 30px;
-    margin-right: 70px;
-    font-size: 12px;
-    cursor: pointer;
-    font-family: 'merriweather';
+.card-block{
+	padding:1.25em;
+}
+
+.card{
+	border: 1px solid rgba(0,0,0,.125);
+	cursor:pointer;
+}	
