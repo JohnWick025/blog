@@ -44,28 +44,148 @@
             </div>
             <div class="row row_dup">
                <h3><strong>Git Clone</strong></h3>
-                <div class="col-lg-6 col-sm-1 gitimage">
-                    <img src="https://nandoangelo.github.io/template-bootstrap/assets/img/hero-bg.jpg" class="img-1" alt="Hero Image">
+                <div class="col-lg-6 col-sm-6  col-md-6">
+                    <img src="https://nandoangelo.github.io/template-bootstrap/assets/img/hero-bg.jpg" class="img-responsive img-thumbnail gitimage" alt="Hero Image">
                 </div>
-                <div class="col-lg-6 col-sm-1 ">
+                <div class="col-lg-6 col-sm-6 col-md-6">
                   <p><li>Clone your repo in your machine.</li></p>
-                  <p>command:<br>
+                  <p>Command:<br>
                     &nbsp;​&nbsp;&nbsp;<strong>git clone -b 'repo link(https)'</strong></p>
                 </div>
             </div>
 
             <div class="row row_dup">
-               <div class="col-lg-6 col-sm-1 gitimage">
-                    <img src="https://nandoangelo.github.io/template-bootstrap/assets/img/hero-bg.jpg" class="img-1" alt="Hero Image">
+               <h3><strong>Git Branch</strong></h3>
+               <div class="col-lg-6 col-sm-6 col-md-6">
+                    <img src="https://nandoangelo.github.io/template-bootstrap/assets/img/hero-bg.jpg" class="img-responsive img-thumbnail gitimage" alt="Hero Image">
                 </div>
-                <div class="col-lg-6 col-sm-1 ">
+                <div class="col-lg-6 col-sm-6 col-md-6">
                    
-                  <p><li>Clone your repo in your machine.</li></p>
+                  
+                  <p><li>Create a new branch for your repo.</li></p>
+                  <p>Eg: staging, develop<br>
                   <p>command:<br>
-                    &nbsp;​&nbsp;&nbsp;<strong>git clone -b 'repo link(https)'</strong></p>
+                    &nbsp;​&nbsp;&nbsp;<strong>​git branch 'branch name'</strong></p>
+                  
                 </div>
+            </div>
+            <div class="col-lg-12 col-sm-12 col-md-12 pt-2 pb-2">
+                 <h5><strong>Note:</strong>
+                  <ul>
+                    <li>To list all branch : <strong>git branch -a</strong></li>
+                    <li>To move a specific branch : <strong>git branch 'branch name'</strong></li>
+                    <li>To delete the branch : <strong>git branch -d 'branch name'</strong></li></li>
+                    <li>To force delete the branch : <strong>git branch -D 'branch name'</strong></li></li>
+                    <li>To rename branch : <strong>git branch -m 'branch name'</strong></li></li>
+                  </ul>
+                </h5>
+            </div>
+            <div class="row row_dup">
+               <h3><strong>Git Checkout</strong></h3>
+               <div class="col-lg-6 col-sm-6 col-md-6">
+                    <img src="https://nandoangelo.github.io/template-bootstrap/assets/img/hero-bg.jpg" class="img-responsive img-thumbnail gitimage" alt="Hero Image">
+                </div>
+                <div class="col-lg-6 col-sm-6 col-md-6">
+                   
+                  
+                  <p><li>By using this we can create branch and switch to the branch immediately.</li></p>
+                  <p>command:<br>
+                    &nbsp;​&nbsp;&nbsp;<strong>git checkout -b 'branch name'</strong></p>
+                  <br>
+                  <p><li>To switch to another branch</li></p>
+                  <p>command:<br>
+                    &nbsp;​&nbsp;&nbsp;<strong>git checkout 'branch name'</strong></p>
+                </div>
+            </div>
 
+            <div class="row row_dup">
+               <h3><strong>Git Pull</strong></h3>
+               <div class="col-lg-6 col-sm-6 col-md-6">
+                    <img src="https://nandoangelo.github.io/template-bootstrap/assets/img/hero-bg.jpg" class="img-responsive img-thumbnail gitimage" alt="Hero Image">
+                </div>
+                <div class="col-lg-6 col-sm-6 col-md-6">
                
+                  <p><li>Git pull is used to get or pull the latest changes from the repo to your local.</li></p>
+                  <p>command:<br>
+                    &nbsp;​&nbsp;&nbsp;<strong>git pull origin 'branch name'</strong></p>
+                    &nbsp;​&nbsp;&nbsp;or<br>&nbsp;​&nbsp;&nbsp;<strong>git pull</strong></p>
+                  <p>Note: After checkout to the new branch, used git pull command to get the latest changes from respected branches.</p>
+                </div>
+            </div>
+
+            <div class="row row_dup">
+               <h3><strong>Git Add</strong></h3>
+               <div class="col-lg-6 col-sm-6 col-md-6">
+                    <img src="https://nandoangelo.github.io/template-bootstrap/assets/img/hero-bg.jpg" class="img-responsive img-thumbnail gitimage" alt="Hero Image">
+                </div>
+                <div class="col-lg-6 col-sm-6 col-md-6">
+                   
+                    
+                  <p><li>Git add is used to add the modified file or new file to the repo. Below command used to all files. in the repo.</li></p>
+                  <p>command:<br>
+                    &nbsp;​&nbsp;&nbsp;<strong>git add --all</strong></p>
+                    
+                  <ul>
+                    <li>Alternative for adding all files: <strong>git add -A</strong></li>
+                    <li>Add the entire directory and also the file starts with .(dot) : <strong>git add .</strong></li>
+                    <li>Add the modified and deleted file, not includes new file : <strong>git add -u</strong></li></li>
+                    <li>To add specific file:  <strong>git add 'file path'</strong></li></li>
+                  </ul>
+                </div>
+            </div>
+
+            <div class="row row_dup">
+               <h3><strong>Git Status</strong></h3>
+               <div class="col-lg-6 col-sm-6 col-md-6">
+                    <img src="https://nandoangelo.github.io/template-bootstrap/assets/img/hero-bg.jpg" class="img-responsive img-thumbnail gitimage" alt="Hero Image">
+                </div>
+                <div class="col-lg-6 col-sm-6 col-md-6">
+                   
+                  
+                  <p><li>Git status is used to check the file that have been added, we can verify the file that we have changed.</li></p>
+                  <p>command:<br>
+                    &nbsp;​&nbsp;&nbsp;<strong>git status</strong></p>
+                </div>
+            </div>
+
+            <div class="row row_dup">
+               <h3><strong>Git Commit</strong></h3>
+               <div class="col-lg-6 col-sm-6 col-md-6">
+                    <img src="https://nandoangelo.github.io/template-bootstrap/assets/img/hero-bg.jpg" class="img-responsive img-thumbnail gitimage" alt="Hero Image">
+                </div>
+                <div class="col-lg-6 col-sm-6 col-md-6">
+                   
+                
+                  <p><li>Git commit is used to commit the file to the repo.</li></p>
+                  <p>command:<br>
+                    &nbsp;​&nbsp;&nbsp;<strong>git commit -m 'Description'</strong></p>
+                    <span>m - refers to message</span>
+                </div>
+            </div>
+
+            <div class="row row_dup">
+               <h3><strong>Git Push</strong></h3>
+               <div class="col-lg-6 col-sm-6 col-md-6">
+                    <img src="https://nandoangelo.github.io/template-bootstrap/assets/img/hero-bg.jpg" class="img-responsive img-thumbnail gitimage" alt="Hero Image">
+                </div>
+                <div class="col-lg-6 col-sm-6 col-md-6">
+                   
+                
+                  <p><li>This command is used to push your changes to your repo.</li></p>
+                  <p>command:<br>
+                    &nbsp;​&nbsp;&nbsp;<strong>git push origin 'branch name'</strong></p>
+                </div>
+            </div>
+
+            <div class="row row_dup">
+               <h3><strong>Git Merge</strong></h3>
+               <div class="col-lg-6 col-sm-6 col-md-6">
+                    <img src="https://nandoangelo.github.io/template-bootstrap/assets/img/hero-bg.jpg" class="img-responsive img-thumbnail gitimage" alt="Hero Image">
+                </div>
+                <div class="col-lg-6 col-sm-6 col-md-6">
+                   
+                 
+                </div>
             </div>
       </div>
     </div>
